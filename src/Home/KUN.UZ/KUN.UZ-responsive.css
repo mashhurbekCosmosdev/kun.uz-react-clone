@@ -1,0 +1,108 @@
+@media screen and (max-width: 900px) {
+    .two-start-section{
+        max-width: 100%;
+        height: 600vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: red;
+
+    }
+    .section_start{
+        max-width: 100%;
+        height: 530vh;
+        background: yellow;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .start-end_X1{
+        max-width: 63%;
+        height: 350vh;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .one_picture_div_write_code{
+        width: 100%;
+        height: 60vh;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .one_picture_div_two_divded2{
+        max-width: 100%;
+        height: 70vh;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .long_div_divded{
+        width: 100%;
+        height: 150vh;
+        background: blue;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 300px;
+    }
+    .start-end_X2{
+        width: 28%;
+        height: 950px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .end_left{
+        width: 200px;
+        height: 100px;
+        margin: 2px;
+        padding-left: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: #fff;
+    }
+    .end_left h5{
+        font-size: 15px;
+        color: #1f1b1b;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .end_left p{
+        font-size: 13px;
+        color: #787777;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .end_left h4{
+        font-size: 12px;
+        color: #1f1b1b;
+        flex-wrap: wrap;
+    }
+    .end_left button{
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hr3{
+        border: none;
+        background: none;
+    }
+    .long_div_divded1{
+        max-width: 100%;
+        height: 25vh;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture_top_wride_text2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture_top_wride_text1{
+        max-width: 100%;
+        height: 50vh;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture_top_wride_text3{
+        width: 100%;
+        height: 70vh;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

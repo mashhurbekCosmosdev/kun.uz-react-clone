@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Route,Routes } from "react-router-dom";
+import KUNUZ from './Home/KUN.UZ/KUN.UZ.jsx';
+import Home from './Home/home-two/home.jsx';
+import TURIZM from './Home/TOURISM/TOURISM.jsx';
+import POLITICS from './Home/POLITICS/SOCIETY.jsx';
+import SOCIETY from './Home/POLITICS/SOCIETY.jsx';
+import BUSINESS from './Home/SPORT/SPORT.jsx';
+import TECH from './Home/TECH/TECH.jsx';
+import CULTURE from './Home/CULTURE/CULTURE.jsx';
+import SPORT from './Home/SPORT/SPORT.jsx';
+import TOURISM from './Home/TOURISM/TOURISM.jsx';
+
+
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home/>
+      <Routes>
+    <Route path="/kun.uz" element={<KUNUZ/>}/>  
+    <Route path="/ozbekiston" element={<POLITICS/>}/>  
+    <Route path="/dunyo" element={<SOCIETY/>}/>
+    <Route path="/jamiyat" element={<BUSINESS/>}/>
+    <Route path="/sport" element={<TECH/>}/>
+    <Route path="/madaniyat" element={<CULTURE/>}/>
+    <Route path="/biznes" element={<SPORT/>}/>
+    <Route path="/turizm" element={<TOURISM/>}/>
+    </Routes>
     </div>
   );
 }
