@@ -1,51 +1,176 @@
 
-
 @media screen and (max-width: 900px) {
     header{
+        width: 100%;
+        height: 15vh;
+        flex-wrap: wrap;
+    }
+    nav_bar{
         max-width: 100%;
-        height: 51vh;
+        height: 40px;
+        flex-wrap: wrap;
+    }
+    .nav_bar_divded1 ul li{
+        display: inline;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .nav_bar_divded2{
+        width: 42%;
+        /* height: 40px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .container{
         max-width: 100%;
-        height: 300px;
+        height: auto;
         /* flex-wrap: wrap; */
         display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
-    .picture-and-div2{
+    .hold{
+        max-width: 100%;
+        /* height: 200vh; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container_center1{
+        max-width: 75%;
+        height: auto;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .container_center2{
+        max-width: 25%;
+        /* height: 200vh; */
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .put{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pivture_next_div1 img{
+        width: 300px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pivture_next_div2{
+        width: 300px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four_divded{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four_divded1{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture_top_message{
+        max-width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left_right_message1{
+        width: 100%;
+        height: 47px;
+        background: white;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left_right_message2{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container_center2{
+        width: 24%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left_end_divs1{
+        width: 100%;
+        height: 170px;
+        flex-wrap: wrap;
+    }
+    .left_end_divs{
+        width: 100%;
+        height: 105px;
+        flex-wrap: wrap;
+    }
+    .left_end_divs2{
         width: 100%;
         height: 70px;
         flex-wrap: wrap;
-        justify-content: center;
     }
-    .nav_in_div_divded1{
-        width: 150px;
-        height: 70px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .nav_in_div_divded2{
-        width: 350px;
-        height: 70px;
-        background: red;
-        /* flex-wrap: wrap;/ */
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .nav_in_div_divded2 ul li{
-        display: inline;
-        font-size: 16px;
-    }
-    .nav_in_div_divded3{
-        width: 580px;
-        height: 70px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+}
 
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container_center2{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+    .four_divded{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four_divded1{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .smal_picture_and_div1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .picture_img2{
+        width: 220px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture_img1 img{
+        width: 120px;
+        height: 120px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four_divded2{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hold{
+        width: 915px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
