@@ -61,7 +61,7 @@ header{
 .pivture_next_div2 h2{
     font-size: 20px;
     font-weight: 600;
-    color: #1c0f83;
+    color: #100754;
     flex-wrap: wrap;
 }
 .pivture_next_div2 h2:hover{
@@ -70,7 +70,7 @@ header{
 }
 .pivture_next_div2 p{
     font-size: 16px;
-    color: #949494;
+    color: #504f4f;
     flex-wrap: wrap;
 }
 .four_divded{
@@ -117,13 +117,13 @@ header{
 }
 .picture_img2 h3{
     font-size: 15px;
-    color: #122dc6;
+    color: #10104e;
     padding-top: 5px;
     flex-wrap: wrap;
     justify-content: center;
 }
 .picture_img2 h3:hover{
-    color: #2a18cb;
+    color: #270ee6;
     transition: 1s;
 }
 .hr{
@@ -200,10 +200,14 @@ header{
     flex-wrap: wrap;
 }
 .one_message h3{
-    color: #151564;
-    font-size: 15px;
+    color: #090941;
+    font-size: 14px;
     font-weight: 600;
     flex-wrap: wrap;
+}
+.one_message h3:hover{
+    color: #270ee6;
+    transition: 1s;
 }
 
 /* left_end_divs */
@@ -224,7 +228,7 @@ header{
 }
 .left_end_divs1 h1{
     color: #1c0f83;
-    font-size: 18px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -232,7 +236,7 @@ header{
 }
 .left_end_divs1 h4{
     color: #7e7e7e;
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -240,9 +244,13 @@ header{
 }
 .left_end_divs1 h3{
     color: #1c0f83;
-    font-size: 15px;
+    font-size: 13px;
     flex-wrap: wrap;
     justify-content: center;
+}
+.left_end_divs1 h3:hover{
+    color: #270ee6;
+    transition: 1s;
 }
 .left_end_divs{
     width: 219px;
@@ -263,7 +271,7 @@ header{
 }
 .left_end_divs h4{
     color: #7e7e7e;
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -271,9 +279,13 @@ header{
 }
 .left_end_divs h3{
     color: #1c0f83;
-    font-size: 15px;
+    font-size: 13px;
     flex-wrap: wrap;
     justify-content: center;
+}
+.left_end_divs h3:hover{
+    color: #270ee6;
+    transition: 1s;
 }
 .left_end_divs2{
     width: 219px;

@@ -3,14 +3,13 @@ import './App.css';
 import { Route,Routes } from "react-router-dom";
 import KUNUZ from './Home/KUN.UZ/KUN.UZ.jsx';
 import Home from './Home/home-two/home.jsx';
-import TURIZM from './Home/TOURISM/TOURISM.jsx';
-import POLITICS from './Home/POLITICS/SOCIETY.jsx';
-import SOCIETY from './Home/POLITICS/SOCIETY.jsx';
 import BUSINESS from './Home/SPORT/SPORT.jsx';
 import TECH from './Home/TECH/TECH.jsx';
 import CULTURE from './Home/CULTURE/CULTURE.jsx';
 import SPORT from './Home/SPORT/SPORT.jsx';
 import TOURISM from './Home/TOURISM/TOURISM.jsx';
+import POLITICS from './Home/POLITICS/POLITICS.jsx';
+import SOCIETY from './Home/SOCIETY/SOCIETY.jsx';
 
 
 
@@ -23,13 +22,13 @@ function App() {
    
     <Route path='/home' element={<Home/>}/>
     <Route path="/kun.uz" element={<KUNUZ/>}/>  
-    <Route path="/ozbekiston" element={<POLITICS/>}/>  
-    <Route path="/dunyo" element={<SOCIETY/>}/>
-    <Route path="/jamiyat" element={<BUSINESS/>}/>
-    <Route path="/sport" element={<TECH/>}/>
-    <Route path="/madaniyat" element={<CULTURE/>}/>
-    <Route path="/biznes" element={<SPORT/>}/>
-    <Route path="/turizm" element={<TOURISM/>}/>
+    <Route path="/politics" element={<POLITICS/>}/>  
+    <Route path="/society" element={<SOCIETY/>}/>
+    <Route path="/business" element={<BUSINESS/>}/>
+    <Route path="/teach" element={<TECH/>}/>
+    <Route path="/culture" element={<CULTURE/>}/>
+    <Route path="/sport" element={<SPORT/>}/>
+    <Route path="/tourism" element={<TOURISM/>}/>
     </Routes>
     </div>
   );

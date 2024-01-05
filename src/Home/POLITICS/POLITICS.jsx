@@ -1,17 +1,19 @@
 import React from "react";
-import "./SOCIETY.css"
-import "./SOCIETY-responsive.css"
-import Right from "./Right_div/Right_div";
+import "./POLITICS.css"
+import "./POLITICS-responsive.css"
 import Left from "./Left_div/Left_div";
+import Right from "./Right_div/Right_div";
 import Nav from "../Navbar/Nav";
 
-function SOCIETY(){
+function POLITICS(){
     return(
         <div className="twise">
-            <Nav/>
+        <header>
+        <Nav/>
+        </header>
         <Right/>
         <Left/>
         </div>
     )
 }
-export default SOCIETY;
+export default POLITICS;
