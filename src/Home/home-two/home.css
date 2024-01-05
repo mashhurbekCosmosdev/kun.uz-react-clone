@@ -12,67 +12,7 @@ header{
     justify-content: center;
     /* background: aqua; */
 }
-nav_bar{
-    width: 91%;
-    height: 40px;
-    display: flex;
-    /* border: 2px solid red; */
-    flex-wrap: wrap;
-}
-.nav_bar_divded1{
-    width: 58%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background: yellowgreen; */
-    flex-wrap: wrap;
-}
-.nav_bar_divded1 h1{
-    font-size: 18px;
-    color: #2a18cb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-.nav_bar_divded1 .uz{
-    width: 27px;
-    height: 27px;
-    background: #151564;
-    color: #fff;
-    font-size: 17px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav_bar_divded1 ul li{
-    display: inline;
-    margin: 5px;
-    font-weight: 600;
-    font-size: 12px;
-    flex-wrap: wrap;
-}
-.nav_bar_divded2{
-    width: 42%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    /* background: red;     */
-    flex-wrap: wrap;
-}
-select{
-    width: 70px;
-    height: 25px;
-    background: #dbdbdb;
-    border: none;
-    border-radius: 10px;
-}
-select:focus{
-    outline: none;
-}
+
 .container{
     width: 100%;
     height: 200vh;

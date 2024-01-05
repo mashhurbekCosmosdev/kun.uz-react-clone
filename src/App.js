@@ -19,8 +19,9 @@ function App() {
 
   return (
     <div className="App">
-      <Home/>
       <Routes>
+   
+    <Route path='/home' element={<Home/>}/>
     <Route path="/kun.uz" element={<KUNUZ/>}/>  
     <Route path="/ozbekiston" element={<POLITICS/>}/>  
     <Route path="/dunyo" element={<SOCIETY/>}/>

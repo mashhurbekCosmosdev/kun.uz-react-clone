@@ -2,13 +2,13 @@ import React from "react";
 import "./home.css"
 import "./home-responsive.css"
 import 'boxicons';
-import { NavLink } from 'react-router-dom'
 import img1 from "./img/xr2TgvLR7AfSIC97qHqd6vxDSx6UGF_H_medium.jpg"
 import img2 from"./img/xr2TgvLR7AfSIC97qHqd6vxDSx6UGF_H_medium.jpg"
 import img3 from "./img/p7_gmN5Bb6ZK_T_oyUqUhVHsFrvwvf2-_medium.jpg"
 import img4 from "./img/map.jpg"
 import img5 from"./img/girl.jpg"
 import img6 from "./img/building.jpg"
+import Nav from "../Navbar/Nav";
 
 
 function Home() {
@@ -20,26 +20,7 @@ function Home() {
     {/* HEADER */}
 
        <header>
-        <nav_bar>
-        <div className="nav_bar_divded1">
-        <NavLink to='/kun.uz'><h1>KUN<div className="uz">UZ</div></h1></NavLink>
-        <ul>
-        <NavLink to='./ozbekiston'><li>POLITICS</li></NavLink>
-        <NavLink to='./dunyo'><li>SOCIETY</li></NavLink>
-        <NavLink to='./jamiyat'><li>BUSINESS</li></NavLink>
-        <NavLink to='./sport'><li>TECH</li></NavLink>
-        <NavLink to='./madaniyat'><li>CULTURE</li></NavLink>
-        <NavLink to='./biznes'><li>SPORT</li></NavLink>
-        <NavLink to='./turizm'><li>TOURISM</li></NavLink>
-        </ul> 
-        </div>
-        <div className="nav_bar_divded2">
-        <select name="til" id="til">
-        <option value="uzb">UZB</option>
-        <option value="eng">ENG</option>
-        </select> 
-        </div>
-        </nav_bar>
+     <Nav/>
         </header>
 
         {/* HEADER  */}
