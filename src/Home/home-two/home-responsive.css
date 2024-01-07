@@ -17,36 +17,27 @@
     }
     .nav_bar_divded2{
         width: 42%;
-        /* height: 40px; */
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .pivture_next_div1 img{
+        width: 100%;
+        height: 320px;
+        flex-wrap: wrap;
+    }
+    .pivture_next_div2 h2{
+        font-size: 25px;
+        font-weight: 600;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .container{
         max-width: 100%;
         height: auto;
-        /* flex-wrap: wrap; */
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-    .hold{
-        max-width: 100%;
-        /* height: 200vh; */
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .container_center1{
-        max-width: 75%;
-        height: auto;
-        /* flex-wrap: wrap; */
-        justify-content: center;
-    }
-    .container_center2{
-        max-width: 25%;
-        /* height: 200vh; */
-        /* flex-wrap: wrap; */
         justify-content: center;
     }
     .put{
@@ -55,70 +46,98 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .pivture_next_div1 img{
-        width: 300px;
-        flex-wrap: wrap;
-        justify-content: center;
+    .left_end_divs h4{
+        display: none;
     }
     .pivture_next_div2{
-        width: 300px;
+        width: 480px;
+        height: auto;
         flex-wrap: wrap;
         justify-content: center;
     }
     .four_divded{
         width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
     }
     .four_divded1{
         width: 100%;
+        height: auto;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .picture_img3 img{
+        width: 100%;
+        height: 150px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .picture_top_message{
-        max-width: 100%;
+    .smal_picture_and_div1{
+        width: 470px;
         height: auto;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .left_right_message1{
-        width: 100%;
-        height: 47px;
-        background: white;
+    .picture_img2{
+        width: 300px;
+        height: auto;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .left_right_message2{
+    .four_divded2{
         width: 100%;
         height: auto;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .smal_picture_and_div2{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left_end_divs2{
+        width: 200px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .left_end_divs2 button{
+        width: 70%;
+        height: 7vh;
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left_end_divs1{
+        width: 315px;
+        height: auto;
+        margin-left: -0px;
+        flex-wrap: wrap;
+    }
+    .left_end_divs{
+        width: 315px;
+        height: auto;
+        margin-left: -0px;
+        flex-wrap: wrap;
+    }
+    .left_end_divs2{
+        width: 313px;
+        height: auto;
+        margin-left: -0px;
+        flex-wrap: wrap;
     }
     .container_center2{
         width: 24%;
         height: auto;
-        /* flex-wrap: wrap; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        z-index: 111;
-    }
-    .left_end_divs1{
-        width: 100%;
-        height: 100px;
-        background: blue4;
         flex-wrap: wrap;
+        justify-content: center;
     }
-    .left_end_divs{
+    .picture_top_message{
         width: 100%;
-        height: 105px;
+        height: auto;
         flex-wrap: wrap;
-    }
-    .left_end_divs2{
-        width: 100%;
-        height: 70px;
-        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 

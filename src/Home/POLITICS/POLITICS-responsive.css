@@ -1,0 +1,140 @@
+@media screen and (max-width: 900px) {
+    .twise{
+        max-width: 100%;
+        height: auto;
+    }
+    .political{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .political_div1{
+       width: 71%;
+       height: 120vh;
+       display: flex;
+       flex-direction: column;
+    }
+    .screen_div{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .initial_part1 img{
+        width: 100%;
+        height: 270px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .initial_part2{
+        min-width: 78%;
+        height: 305px;
+        flex-wrap: wrap;
+    }
+    .four_divded1{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture_top_message{
+        max-width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left_right_message1{
+        width: 100%;
+        height: 47px;
+        background: white;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left_right_message2{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container_center2{
+        max-width: 25%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .left_end_divs1{
+        width: 100%;
+        height: 100px;
+        background: blue4;
+        flex-wrap: wrap;
+    }
+    .left_end_divs{
+        max-width: 100%;
+        height: 105px;
+        flex-wrap: wrap;
+    }
+    .left_end_divs2{
+        width: 100%;
+        height: 70px;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container_center2{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+    .four_divded{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four_divded1{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .smal_picture_and_div1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .picture_img2{
+        width: 220px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture_img1 img{
+        width: 120px;
+        height: 120px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four_divded2{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hold{
+        width: 915px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
