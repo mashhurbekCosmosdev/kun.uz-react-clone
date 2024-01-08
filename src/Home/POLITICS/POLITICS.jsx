@@ -23,61 +23,111 @@ function POLITICS(){
         <div className="initial_part1">
         <h1><box-icon name='disc' type='solid' color='#0a0b56' ></box-icon>Latest news</h1>
         <img src={img7}/></div>
-        <div className="initial_part2"><br /><br /><br />
+        <div className="initial_part2"><br />
         <h5><box-icon name='box' color='#8b8b8b' ></box-icon>14:27 / 22.11.2023</h5><br />
         <h3>FM Saidov holds talks with AIIB President Jin Liqun</h3><br />
         <p>On November 21, the Foreign Minister of Uzbekistan Bakhtiyor Saidov met in Beijing with the President of the Asian Infrastructure Investment Bank, Jin Liqun.</p>
         </div>
         </div>
         {/* one list end */}
-
-        {/* two list start */}
+        <div className="long_div1">
         <div className="four_divded1">
         <div className="smal_picture_and_div1">
         <div className="picture_img1"><img src={img8}/></div>
         <div className="picture_img2">
-        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4>
-        <h3>Aziz Voitov suspected of embezzlement and abuse of official power </h3><br /><br />
+        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4><br />
+        <h3>Aziz Voitov suspected of official of embezzlementof official and abuse of official power </h3><br />
         <hr className="hr"/>
         </div>
         </div>
         <div className="smal_picture_and_div2">
         <div className="smal_picture_and_div1">
-        <div className="picture_img1"><img src={img9}/></div>
-        <div className="picture_img2">
-        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4>
-        <h3>Saida Mirziyoyeva speaks about reform of the national alphabet</h3><br /><br /><br />
+        <div className="picture_img3"><img src={img9}/></div>
+        <div className="picture_img4">
+        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4><br />
+        <h3>Saida Mirziyoyeva speaks about reform of the national alphabet</h3><br /><br />
         <hr className="hr"/>
         </div>
         </div>
         </div>
         </div>
-        {/* two list end */}
-
-        {/* two list start */}
+        </div>
+        <div className="long_div1">
         <div className="four_divded1">
         <div className="smal_picture_and_div1">
         <div className="picture_img1"><img src={img10}/></div>
         <div className="picture_img2">
-        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4>
-        <h3>Aziz Voitov suspected of embezzlement and abuse of official power </h3><br /><br />
+        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4><br />
+        <h3>Aziz Voitov suspected of official of embezzlementof official and abuse of official power </h3><br />
         <hr className="hr"/>
         </div>
         </div>
         <div className="smal_picture_and_div2">
         <div className="smal_picture_and_div1">
-        <div className="picture_img1"><img src={img11}/></div>
-        <div className="picture_img2">
-        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4>
-        <h3>Saida Mirziyoyeva speaks about reform of the national alphabet</h3><br /><br /><br />
+        <div className="picture_img3"><img src={img11}/></div>
+        <div className="picture_img4">
+        <h4><box-icon name='box' color='#737373' ></box-icon>15:30 / 25.12.2023</h4><br />
+        <h3>Saida Mirziyoyeva speaks about reform of the national alphabet</h3><br /><br />
         <hr className="hr"/>
         </div>
         </div>
         </div>
         </div>
         </div>
+        {/* two list start */}
+       
         {/* two list end */}
-        <div className="political_div2"></div>
+
+        {/* two list start */}
+        
+        </div>
+        {/* two list end */}
+        <div className="political_div2">
+        <div className="left_end_divs1">
+        <h1><box-icon name='disc' type='solid' color='#0a0b56' ></box-icon>Latest news</h1>
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs">
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs">
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs">
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs">
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs">
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs">
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs">
+        <h4><box-icon name='box' color='#737373'></box-icon>15:30</h4><br />
+        <h3>Uzbekistan may stop producing AI-80 gasoline by 2026</h3>
+        <hr className="hr"/>
+        </div>
+        <div className="left_end_divs2">
+        <button><h3>More News</h3> <box-icon name='right-arrow-alt'></box-icon></button>
+        </div>
+        </div>
         </div>
         </div>
     )

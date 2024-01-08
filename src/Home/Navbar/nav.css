@@ -47,7 +47,8 @@ select{
     }
     header nav {
         width: 100%;
-        flex-wrap: wrap;
+       
+
     }
     header nav ul{
        
