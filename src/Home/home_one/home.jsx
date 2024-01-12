@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <div className="started">
-     
+     <p>Lorem ipsum dolor sit amet.</p>
     <div className="six_div_open1">{<Six_div_open1/>}</div>
     <div className="six_div_open2">{<Six_div_open2/>}</div>
     <div className="six_div_open3"></div>
