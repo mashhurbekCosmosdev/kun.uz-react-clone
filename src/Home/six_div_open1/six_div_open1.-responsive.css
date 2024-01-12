@@ -1,0 +1,90 @@
+@media screen and (max-width: 900px) {
+    .started{
+        max-width: 100%;
+        height: 400vh;
+        flex-wrap: wrap;
+    }
+    .six_div_open1{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .container{
+        max-width: 95%;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    .smal_picture1{
+        width: 350px;
+        flex-wrap: wrap;
+    }
+    .smal_picture2 img{
+        width: 100%;
+        height: 70px;
+        flex-wrap: wrap;
+    }
+    nav button{
+        width: 18%;
+        height: 50px;
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .center_message_and_picture{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .message_picture1{
+        width: 700px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .message_picture1 .for_number{
+        width: 250px;
+        height: 70px;
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+    .message_picture2{
+     display: none;   
+    }
+    /* one page code write end */
+
+    /* two page code write strat */
+    .put_people{
+        max-width: 100%;
+        height: 800px;
+    }
+    .first_message1{
+        max-width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first_message2{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .historiy_picture_put{
+        width: 75%;
+        height: 550px;
+    }
+    .bottom_picture1{
+        width: 100%;
+        height: 330px;
+        display: flex;
+    }
+    .three_picture_put img{
+        width: 100%;
+        height: 300px;
+        flex-wrap: wrap;
+    }
+    .bottom_picture2{
+        width: 95%;
+        height: 220px;
+        flex-wrap: wrap;
+    }
+}

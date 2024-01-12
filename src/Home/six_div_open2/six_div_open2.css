@@ -1,0 +1,79 @@
+.difficult{
+    width: 100%;
+    height: 109vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: blue; */
+}
+.put_people{
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+}
+.first_message1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+}
+.first_message1 h2{
+    color: #11116d;
+    font-size: 45px;
+    flex-wrap: wrap;
+}
+.first_message1 p{
+    color: #11116d;
+    font-size: 22px;
+    flex-wrap: wrap;
+}
+.first_message2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: purple; */
+}
+.historiy_picture_put{
+    width: 430px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    border-radius: 10px;
+}
+.bottom_picture1{
+    width: 430px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: yellowgreen; */
+}
+.three_picture_put img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.bottom_picture2{
+    width: 410px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    /* background: brown; */
+}
+.bottom_picture2 h1{
+    font-size: 25px;
+    color: #11116d;
+    flex-wrap: wrap;
+}
+.bottom_picture2 p{
+    font-size: 20px;
+    color: #11116d;
+    flex-wrap: wrap;
+}
